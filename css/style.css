@@ -108,7 +108,7 @@ address {
   font-family: "Roboto", sans-serif;
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px;
+
 }
 
 .header-list-item-link {
@@ -147,6 +147,7 @@ address {
   font-family: "Roboto", sans-serif;
   display: flex;
   gap: 40px;
+  padding: 24px 0 24px;
 }
 
 .header-address-list-item {}
