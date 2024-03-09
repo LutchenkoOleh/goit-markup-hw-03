@@ -63,6 +63,10 @@ address {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 /*header*/
 .header {
@@ -166,10 +170,6 @@ address {
 .section-one {
   font-family: "Roboto", sans-serif;
   background: #2e2f42;
-  margin-bottom: 139px;
-
-
-
 }
 
 .section-one-title {
@@ -228,8 +228,6 @@ address {
 /*section-two*/
 .section-two {
   font-family: "Roboto", sans-serif;
-  margin-bottom: 123px;
-
 
 }
 
@@ -268,7 +266,7 @@ address {
 .section-three {
   font-family: "Roboto", sans-serif;
   background-color: #f4f4fd;
-  margin-bottom: 117px;
+
 }
 
 .section-three-list {
@@ -295,7 +293,7 @@ address {
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   text-align: center;
-  padding-bottom: 128px;
+
 }
 
 .section-three-list-img {
@@ -326,7 +324,7 @@ address {
 /*section-four*/
 .section-four {
   font-family: "Roboto", sans-serif;
-  padding-bottom: 120px;
+
 
 }
 
@@ -339,6 +337,7 @@ address {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  /* padding-top: 117px; */
 }
 
 .section-four-list {
@@ -351,6 +350,9 @@ address {
 
 .section-four-list-item {
   background: #fff;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc
 }
 
 
@@ -380,13 +382,18 @@ address {
 .footer {
 
   background: #2e2f42;
+
 }
 
-.footer-logo {
-  display: flex;
+
+.footer-info {
+  box-sizing: border-box;
   padding-top: 99px;
-  margin-bottom: 16px;
+  padding-bottom: 101px;
+  max-width: 264px;
+
 }
+
 
 .footer-link {
   font-family: "Raleway", sans-serif;
@@ -403,11 +410,8 @@ address {
 
 }
 
-.footer-text-info {
-  display: flex;
-  padding-bottom: 101px;
 
-}
+
 
 .footer-text {
   font-family: "Roboto", sans-serif;
@@ -416,5 +420,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-top: 16px;
 
 }
