@@ -108,6 +108,7 @@ address {
   font-family: "Roboto", sans-serif;
   display: flex;
   gap: 40px;
+  padding: 24px 0 24px;
 }
 
 .header-list-item-link {
@@ -355,12 +356,15 @@ address {
 
 .section-four-list-item {
   background: #fff;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
+
   width: calc((100% - 48px) / 3);
 }
 
+.app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 
 
 .section-four-list-title {
@@ -371,7 +375,7 @@ address {
   color: #2e2f42;
   margin-top: 32px;
   margin-bottom: 8px;
-  padding-left: 16px;
+
 }
 
 .section-four-list-text {
@@ -380,7 +384,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-left: 16px;
+
 }
 
 
@@ -403,6 +407,7 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-link-logo {
@@ -420,7 +425,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
+
   max-width: 264px;
 
 }
