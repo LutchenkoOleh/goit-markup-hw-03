@@ -58,8 +58,7 @@ address {
 .container {
 
   width: 1158px;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
 }
 
@@ -72,6 +71,7 @@ address {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc
 }
 
 .header-container {
@@ -80,6 +80,8 @@ address {
 
 .header-nav {
   display: flex;
+  align-items: center;
+  padding: 24px 0 24px;
 }
 
 
@@ -170,6 +172,8 @@ address {
 .section-one {
   font-family: "Roboto", sans-serif;
   background: #2e2f42;
+  padding: 188px 0 188px;
+  box-sizing: border-box;
 }
 
 .section-one-title {
@@ -181,22 +185,13 @@ address {
   color: #fff;
   max-width: 496px;
 
-
-
+  display: block;
+  margin: auto;
 }
 
-.business-title {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 48px;
-  padding-top: 191px;
-}
 
-.button-order {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 185px;
-}
+
+
 
 .section-one-button {
   font-family: "Roboto", sans-serif;
@@ -210,6 +205,9 @@ address {
   border-radius: 4px;
   border: none;
   padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
 
 
 }
@@ -274,6 +272,7 @@ address {
   flex-direction: row;
   gap: 24px;
   justify-content: center;
+
 }
 
 .section-three-title {
@@ -286,21 +285,24 @@ address {
   color: #2e2f42;
   margin-bottom: 72px;
   padding-top: 112px;
+
 }
 
 .section-three-list-item {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
-  text-align: center;
 
+  width: calc((100% - 72px) / 4)
 }
 
 .section-three-list-img {
   margin-bottom: 32px;
 }
 
-
+.info {
+  padding: 32px 0;
+}
 
 .section-three-list-subject {
   font-weight: 500;
@@ -309,6 +311,7 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .section-three-list-text {
@@ -317,6 +320,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 
 }
 
@@ -346,13 +350,15 @@ address {
   row-gap: 48px;
   column-gap: 24px;
   justify-content: center;
+
 }
 
 .section-four-list-item {
   background: #fff;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc
+  border-right: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
 }
 
 
@@ -382,17 +388,10 @@ address {
 .footer {
 
   background: #2e2f42;
+  padding: 100px 0;
 
 }
 
-
-.footer-info {
-  box-sizing: border-box;
-  padding-top: 99px;
-  padding-bottom: 101px;
-  max-width: 264px;
-
-}
 
 
 .footer-link {
@@ -403,6 +402,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
 }
 
 .footer-link-logo {
@@ -421,5 +421,6 @@ address {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   margin-top: 16px;
+  max-width: 264px;
 
 }

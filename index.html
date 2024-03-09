@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.com/libraries/modern-normalize">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,11 +43,11 @@
     <section class="section-one section">
       <div class="container">
 
-        <div class="business-title">
-          <h1 class="section-one-title">Effective Solutions
-            for Your Business</h1>
-        </div>
-        <div class="button-order"><button type="button" class="section-one-button ">Order Service</button></div>
+
+        <h1 class="section-one-title">Effective Solutions
+          for Your Business</h1>
+
+        <button type="button" class="section-one-button button ">Order Service</button>
 
       </div>
     </section>
@@ -86,25 +88,33 @@
           <li class="section-three-list-item">
             <img src="./images/pfoto1-min.jpg" alt="Mark Guerrero" width="264" height="260"
               class="section-three-list-img">
-            <h3 class="section-three-list-subject">Mark Guerrero</h3>
-            <p class="section-three-list-text">Product Designer</p>
+            <div class="info">
+              <h3 class="section-three-list-subject">Mark Guerrero</h3>
+              <p class="section-three-list-text">Product Designer</p>
+            </div>
           </li>
           <li class="section-three-list-item">
             <img src="./images/pfoto2-min.jpg" alt="Tom Ford" width="264" height="260" class="section-three-list-img">
-            <h3 class="section-three-list-subject">Tom Ford</h3>
-            <p class="section-three-list-text">Frontend Developer</p>
+            <div class="info">
+              <h3 class="section-three-list-subject">Tom Ford</h3>
+              <p class="section-three-list-text">Frontend Developer</p>
+            </div>
           </li>
           <li class="section-three-list-item">
             <img src="./images/pfoto3-min.jpg" alt="Camila Garcia" width="264" height="260"
               class="section-three-list-img">
-            <h3 class="section-three-list-subject">Camila Garcia</h3>
-            <p class="section-three-list-text">Marketing</p>
+            <div class="info">
+              <h3 class="section-three-list-subject">Camila Garcia</h3>
+              <p class="section-three-list-text">Marketing</p>
+            </div>
           </li>
           <li class="section-three-list-item">
             <img src="./images/pfoto4-min.jpg" alt="Daniel Wilson" width="264" height="260"
               class="section-three-list-img">
-            <h3 class="section-three-list-subject">Daniel Wilson</h3>
-            <p class="section-three-list-text">UI Designer</p>
+            <div class="info">
+              <h3 class="section-three-list-subject">Daniel Wilson</h3>
+              <p class="section-three-list-text">UI Designer</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -164,16 +174,16 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="footer-info">
-        <a href="./index.html" class="footer-link">Web<span class="footer-link-logo">Studio</span></a>
 
-        <p class="footer-text">Increase the flow of customers and <br>sales for your business with digital <br>
-          marketing
-          &
-          growth
-          solutions.</p>
+      <a href="./index.html" class="footer-link">Web<span class="footer-link-logo">Studio</span></a>
 
-      </div>
+      <p class="footer-text">Increase the flow of customers and <br>sales for your business with digital <br>
+        marketing
+        &
+        growth
+        solutions.</p>
+
+
     </div>
   </footer>
 
